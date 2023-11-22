@@ -10,8 +10,8 @@ String productToJson(List<Product> data) => json.encode(List<dynamic>.from(data.
 
 class Product {
     String model;
-    int pk;
     Fields fields;
+    int pk;
 
     Product({
         required this.model,
